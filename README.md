@@ -23,6 +23,24 @@ npm install react-tone-hooks
 ```
 *Note: `react` and `tone` are peer dependencies.*
 
+## Running the Example Locally
+This repository includes a working Vite React application demonstrating the hooks in action. To run it locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/damsarabi/react-tone-hooks.git
+cd react-tone-hooks
+
+# 2. Install and build the core library
+npm install
+npm run build
+
+# 3. Start the example app
+cd example
+npm install
+npm run dev
+```
+
 ## Usage
 
 ### 1. `useToneTracker`
@@ -79,5 +97,3 @@ export function EnvelopeComponent() {
 ## License
 MIT
 ```
-
-***
