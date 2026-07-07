@@ -14,3 +14,10 @@ yarn-debug.log*
 yarn-error.log*
 
 instructions.md
+
+# OS files
+.DS_Store
+*.DS_Store
+
+# Build artifacts
+*.tgz
