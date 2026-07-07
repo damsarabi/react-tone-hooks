@@ -1,0 +1,41 @@
+{
+  "name": "react-tone-hooks",
+  "version": "1.0.0",
+  "description": "A deterministic audio lifecycle manager for React. Seamlessly bridge React's render cycle with the Tone.js Web Audio API.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damsarabi/react-tone-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "tone",
+    "audio",
+    "webaudio",
+    "hooks"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damsarabi/react-tone-hooks/issues"
+  },
+  "homepage": "https://github.com/damsarabi/react-tone-hooks#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "tone": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "react": "^18.0.0",
+    "tone": "^14.7.77",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
