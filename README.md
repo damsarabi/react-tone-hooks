@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/react-tone-hooks.svg)](https://badge.fury.io/js/react-tone-hooks)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![codecov](https://codecov.io/gh/damsarabi/react-tone-hooks/branch/main/graph/badge.svg)](https://codecov.io/gh/damsarabi/react-tone-hooks)
 
 Production-ready, memory-safe React hooks for [Tone.js](https://tonejs.github.io/) and the Web Audio API.
 
