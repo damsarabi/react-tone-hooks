@@ -1,6 +1,6 @@
 # react-tone-hooks
 
-[![npm version](https://badge.fury.io/js/react-tone-hooks.svg)](https://badge.fury.io/js/react-tone-hooks)
+[![npm version](https://img.shields.io/npm/v/react-tone-hooks.svg?style=flat)](https://www.npmjs.com/package/react-tone-hooks)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/damsarabi/react-tone-hooks/branch/main/graph/badge.svg)](https://codecov.io/gh/damsarabi/react-tone-hooks)
 
