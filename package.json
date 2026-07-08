@@ -1,6 +1,6 @@
 {
   "name": "react-tone-hooks",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A deterministic audio lifecycle manager for React. Seamlessly bridge React's render cycle with the Tone.js Web Audio API.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
