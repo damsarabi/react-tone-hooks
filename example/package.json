@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "react-tone-hooks": "file:../react-tone-hooks/react-tone-hooks-1.0.0.tgz",
+    "react-tone-hooks": "file:..",
     "tone": "^15.1.22"
   },
   "devDependencies": {

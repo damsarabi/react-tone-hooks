@@ -49,4 +49,33 @@ describe('useToneTimeout', () => {
     
     expect(callback).not.toHaveBeenCalled();
   });
+
+  it('should clear multiple timeouts when unmounted', () => {
+    const { result, unmount } = renderHook(() => useToneTimeout());
+    const callback1 = vi.fn();
+    const callback2 = vi.fn();
+    
+    result.current.setSafeTimeout(callback1, 1000);
+    result.current.setSafeTimeout(callback2, 2000);
+    
+    unmount();
+    
+    vi.advanceTimersByTime(2000);
+    
+    expect(callback1).not.toHaveBeenCalled();
+    expect(callback2).not.toHaveBeenCalled();
+  });
+
+  it('should not fail if clearSafeTimeout is called on an already executed timeout', () => {
+    const { result } = renderHook(() => useToneTimeout());
+    const callback = vi.fn();
+    
+    const id = result.current.setSafeTimeout(callback, 1000);
+    
+    vi.advanceTimersByTime(1000);
+    expect(callback).toHaveBeenCalledTimes(1);
+    
+    // Clearing it after execution shouldn't do anything or throw
+    expect(() => result.current.clearSafeTimeout(id)).not.toThrow();
+  });
 });
