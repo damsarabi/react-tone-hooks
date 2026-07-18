@@ -1,23 +1,33 @@
-# dependencies
-/node_modules
+# Dependencies
+node_modules
 
-# builds
-/dist
+# Builds (Library & Example App)
+dist
+dist-ssr
+*.tgz
 
-# env
+# Test Coverage
+coverage
+
+# Environment Variables
 .env
 .env.local
+*.local
 
-# logs
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-instructions.md
+# Caches (TypeScript & ESLint)
+*.tsbuildinfo
+.eslintcache
 
-# OS files
+# OS Files
 .DS_Store
 *.DS_Store
+Thumbs.db
 
-# Build artifacts
-*.tgz
+# Misc
+instructions.md
